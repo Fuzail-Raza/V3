@@ -1,0 +1,10 @@
+Volatility,3,Framework,2.9.0
+Offset,FileFullPath,File,output
+0x8900c730,Disabled
+0x8901a270,\REGISTRY\MACHINE\SYSTEM,Disabled
+0x8903c8e8,\REGISTRY\MACHINE\HARDWARE,Disabled
+0x91915008,\Device\HarddiskVolume1\Boot\BCD,Disabled
+0x91920470,\SystemRoot\System32\Config\SOFTWARE,Disabled
+0x9b2f99c8,\??\C:\Users\enlighten\ntuser.dat,Disabled
+0x9c4361a0,\SystemRoot\System32\Config\DEFAULT,Disabled
+0x9e202648,\??\C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT,Disabled

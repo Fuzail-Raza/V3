@@ -1,0 +1,8 @@
+Volatility,3,Framework,2.9.0
+Process,PID,TID,Context,Address,VAD,Path,Note
+svchost.exe,1368,1484,Win32Start,0x71524f4c,<Non-File,Backed,Region>,This,thread,started,execution,in,the,VAD,starting,at,base,address,"(0x71520000),",which,is,not,backed,by,a,file
+svchost.exe,1368,1520,Win32Start,0x71548d52,<Non-File,Backed,Region>,This,thread,started,execution,in,the,VAD,starting,at,base,address,"(0x71520000),",which,is,not,backed,by,a,file
+svchost.exe,1368,1584,Win32Start,0x7152bd2d,<Non-File,Backed,Region>,This,thread,started,execution,in,the,VAD,starting,at,base,address,"(0x71520000),",which,is,not,backed,by,a,file
+svchost.exe,1368,1664,Win32Start,0x7153bc5f,<Non-File,Backed,Region>,This,thread,started,execution,in,the,VAD,starting,at,base,address,"(0x71520000),",which,is,not,backed,by,a,file
+svchost.exe,1368,1668,Win32Start,0x715269c1,<Non-File,Backed,Region>,This,thread,started,execution,in,the,VAD,starting,at,base,address,"(0x71520000),",which,is,not,backed,by,a,file
+et.exe,2564,2528,Win32Start,0x401000,<Non-File,Backed,Region>,This,thread,started,execution,in,the,VAD,starting,at,base,address,"(0x400000),",which,is,not,backed,by,a,file

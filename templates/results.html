@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <title>Results</title>
+</head>
+<body>
+    <header>
+        <div class="logo">TraceAI</div>
+        <nav>
+            <a href="/">Home</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="results-section">
+            <h2>Results</h2>
+            <p style="font-family: Mulish, sans-serif; font-size: 20px;">{{ message }}</p>
+            <a href="/" class="btn">Go Back</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TraceAI. All rights reserved.</p>
+    </footer>
+</body>
+</html>

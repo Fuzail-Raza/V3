@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+}
+.top-bar {
+    background-color: #3b38eb;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 14px;
+    height: 25px;
+    padding-top: 12px;
+
+}
+.top-bar span:first-child{
+    margin-left: 90px;
+
+}
+header {
+    background: #ffffff;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+
+}
+
+header .logo {
+    font-size: 38px;
+    font-weight: bolder;
+    color: #3b38eb;
+    font-family: Mulish, sans-serif;
+    margin-left: 95px;
+
+}
+nav{
+    margin-right:300px;
+}
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 5px;
+    font-family: Mulish, sans-serif;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.login a{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 5px;
+    font-family: Mulish, sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: #3b38eb;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+nav a:hover {
+
+    color: #3b38eb;
+}
+
+main {
+    padding: 20px;
+
+}
+
+.hero {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+button {
+    background: #3b38eb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #ffffff;
+    transition-delay: 0.1s;
+    color: #3b38eb;
+}
+
+.upload-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.results-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+#loading {
+    margin-top: 20px;
+}
+
+#loading img {
+    width: 50px;
+    height: 50px;
+}
+main{
+    margin:0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    margin:0;
+    padding: 0;
+    /*background-image:  url('Hacker.jpg'); /* Your image path here */
+    background-size: cover;  /* Ensures the image covers the entire container */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+     /* Makes the background stay fixed on scroll */
+
+    /* Full-screen height */
+    min-height: 100vh;  /* Ensures the container covers 100% of the viewport height */
+    display: flex;
+    justify-content: center;  /* Centers content horizontally */
+    align-items: center;  /* Centers content vertically */
+    color: white;  /* White text for visibility */
+    text-align: center;
+}
+.container .welcomeScr{
+    border: 1px solid #dddddd;
+    width: 550px;
+    height: 380px;
+    margin:auto;
+    text-align: center;
+    margin-top: 90px;
+    background: #ffffff;
+    border-radius: 40px;
+}
+.container .welcomeScr h2{
+    border: 1px solid #dddddd;
+    font-size: 38px;
+    font-family: Mulish, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: flex;
+}
+.container .welcomeScr p{
+    
+    border: 1px solid #dddddd;
+    font-size: 20px;
+    font-family: Mulish, sans-serif;
+    color: #000000;
+    display: inline-block;
+}
+.container .welcomeScr button{
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    font-family: Mulish, sans-serif;
+    margin-top: 30px;
+}
+
+.container .UploadScr{
+
+    width: 1000px;
+    height: 300px;
+    margin:auto;
+    text-align: center;
+    margin-top: 190px;
+}
+.container .UploadScr h2{
+    font-size: 50px;
+    font-family: Mulish, sans-serif;
+    font-weight: bold;
+}
+.container .UploadScr button{
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    font-family: Mulish, sans-serif;
+}
+.container .LoadingScr{
+
+    width: 1000px;
+    height: 300px;
+    margin:auto;
+    text-align: center;
+    margin-top: 190px;
+}
+.container .LoadingScr .loader img{
+    margin-top: 190px;
+
+}
+.container .LoadingScr h2{
+    font-family: Mulish, sans-serif;
+    font-size: 25px;
+    padding-left: 5px;
+
+}
+.container .resultScr{
+
+    width: 1000px;
+    height: 300px;
+    margin:auto;
+    text-align: center;
+    margin-top: 190px;
+}
+.container .resultScr h2 {
+    font-family: Mulish, sans-serif;
+    font-size: 25px;
+    padding-left: 5px;
+    color: #3b38eb;
+}
+

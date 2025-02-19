@@ -1,0 +1,75 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <script src="{% static 'scripts.js' %}" defer></script>
+    <title>TraceAI: Memory Forensics Tool</title>
+</head>
+<body>
+    <div class="top-bar">
+            <div class="contact-info">
+                <span>📧 info@cyberalphas.com</span>
+                <span>📍 Islamabad, Pakistan</span>
+            </div>
+            <div class="social-media">
+                
+            </div>
+        </div>
+    <header>
+        <div class="logo">TraceAI</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="login">
+            <a href="#login" >Login</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="welcomeScr" id="welcome-screen">
+                <h2>Discover the Future of Memory Forensics</h2>
+                <p>Transform memory analysis into actionable insights and secure your environment with TraceAI</p>>
+                <button  id="get-started">Get Started</button>
+            </div>
+
+            <div id="upload-screen" class="UploadScr" style="display: none;">
+                <h2>Upload Your Memory Dump</h2>
+                {% csrf_token %}
+                <input type="file" id="fileUpload" onchange="updateFileName()">
+                <p id="fileSize"></p>
+                <br>
+                <button id="uploadButton">Upload</button>
+            </div>
+
+            <div id="loading" class="LoadingScr" style="display: none;">
+                <div class="loader">
+                    <img src="{% static 'loader.gif' %}" alt="loader" />   
+                </div>
+                <h2>Please wait...</h2>
+                <h2></h2>
+                
+            </div>
+
+            <div id="result-screen" class="resultScr" style="display: none;">
+                <h2>Results</h2>
+                <pre id="results"></pre>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TraceAI. All rights reserved.</p>
+    </footer>
+</body>
+</html>

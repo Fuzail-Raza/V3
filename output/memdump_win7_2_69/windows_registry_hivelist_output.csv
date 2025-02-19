@@ -1,0 +1,16 @@
+Volatility,3,Framework,2.9.0
+Offset,FileFullPath,File,output
+0x8900c730,Disabled
+0x8901a270,\REGISTRY\MACHINE\SYSTEM,Disabled
+0x8903c8e8,\REGISTRY\MACHINE\HARDWARE,Disabled
+0x9185e5c0,\Device\HarddiskVolume1\Boot\BCD,Disabled
+0x91862548,\SystemRoot\System32\Config\SOFTWARE,Disabled
+0x9c0a8008,\SystemRoot\System32\Config\DEFAULT,Disabled
+0x9c1109c8,\SystemRoot\System32\Config\SECURITY,Disabled
+0x9c1e3008,\SystemRoot\System32\Config\SAM,Disabled
+0x9de5a068,\??\C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT,Disabled
+0xa041a008,\??\C:\Users\enlighten\ntuser.dat,Disabled
+0xa0452560,\??\C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT,Disabled
+0xa061a8a0,\??\C:\Users\enlighten\AppData\Local\Microsoft\Windows\UsrClass.dat,Disabled
+0xa22eb9c8,\??\C:\Windows\AppCompat\Programs\Amcache.hve,Disabled
+0xa813c108,\??\C:\Windows\System32\config\COMPONENTS,Disabled
